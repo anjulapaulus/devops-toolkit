@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  template:
+    spec:
+      containers:
+        - name: "service"
+          image: "jocatalin/kubernetes-bootcamp:v1"
